@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Garage Door Opener.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EE288A471DCEE0F60056BF59</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE288A5B1DCEE0F70056BF59</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE288A661DCEE0F70056BF59</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

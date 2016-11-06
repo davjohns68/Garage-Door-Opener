@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE288A4C1DCEE0F60056BF59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE288A4B1DCEE0F60056BF59 /* AppDelegate.swift */; };
+		EE288A4E1DCEE0F60056BF59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE288A4D1DCEE0F60056BF59 /* ViewController.swift */; };
+		EE288A511DCEE0F60056BF59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE288A4F1DCEE0F60056BF59 /* Main.storyboard */; };
+		EE288A531DCEE0F60056BF59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE288A521DCEE0F60056BF59 /* Assets.xcassets */; };
+		EE288A561DCEE0F60056BF59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE288A541DCEE0F60056BF59 /* LaunchScreen.storyboard */; };
+		EE288A611DCEE0F70056BF59 /* Garage_Door_OpenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE288A601DCEE0F70056BF59 /* Garage_Door_OpenerTests.swift */; };
+		EE288A6C1DCEE0F70056BF59 /* Garage_Door_OpenerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE288A6B1DCEE0F70056BF59 /* Garage_Door_OpenerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE288A5D1DCEE0F70056BF59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE288A401DCEE0F60056BF59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE288A471DCEE0F60056BF59;
+			remoteInfo = "Garage Door Opener";
+		};
+		EE288A681DCEE0F70056BF59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE288A401DCEE0F60056BF59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE288A471DCEE0F60056BF59;
+			remoteInfo = "Garage Door Opener";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE288A481DCEE0F60056BF59 /* Garage Door Opener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Garage Door Opener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE288A4B1DCEE0F60056BF59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE288A4D1DCEE0F60056BF59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE288A501DCEE0F60056BF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE288A521DCEE0F60056BF59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE288A551DCEE0F60056BF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE288A571DCEE0F60056BF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE288A5C1DCEE0F70056BF59 /* Garage Door OpenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Garage Door OpenerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE288A601DCEE0F70056BF59 /* Garage_Door_OpenerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garage_Door_OpenerTests.swift; sourceTree = "<group>"; };
+		EE288A621DCEE0F70056BF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE288A671DCEE0F70056BF59 /* Garage Door OpenerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Garage Door OpenerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE288A6B1DCEE0F70056BF59 /* Garage_Door_OpenerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garage_Door_OpenerUITests.swift; sourceTree = "<group>"; };
+		EE288A6D1DCEE0F70056BF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE288A451DCEE0F60056BF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE288A591DCEE0F70056BF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE288A641DCEE0F70056BF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE288A3F1DCEE0F60056BF59 = {
+			isa = PBXGroup;
+			children = (
+				EE288A4A1DCEE0F60056BF59 /* Garage Door Opener */,
+				EE288A5F1DCEE0F70056BF59 /* Garage Door OpenerTests */,
+				EE288A6A1DCEE0F70056BF59 /* Garage Door OpenerUITests */,
+				EE288A491DCEE0F60056BF59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE288A491DCEE0F60056BF59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE288A481DCEE0F60056BF59 /* Garage Door Opener.app */,
+				EE288A5C1DCEE0F70056BF59 /* Garage Door OpenerTests.xctest */,
+				EE288A671DCEE0F70056BF59 /* Garage Door OpenerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE288A4A1DCEE0F60056BF59 /* Garage Door Opener */ = {
+			isa = PBXGroup;
+			children = (
+				EE288A4B1DCEE0F60056BF59 /* AppDelegate.swift */,
+				EE288A4D1DCEE0F60056BF59 /* ViewController.swift */,
+				EE288A4F1DCEE0F60056BF59 /* Main.storyboard */,
+				EE288A521DCEE0F60056BF59 /* Assets.xcassets */,
+				EE288A541DCEE0F60056BF59 /* LaunchScreen.storyboard */,
+				EE288A571DCEE0F60056BF59 /* Info.plist */,
+			);
+			path = "Garage Door Opener";
+			sourceTree = "<group>";
+		};
+		EE288A5F1DCEE0F70056BF59 /* Garage Door OpenerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE288A601DCEE0F70056BF59 /* Garage_Door_OpenerTests.swift */,
+				EE288A621DCEE0F70056BF59 /* Info.plist */,
+			);
+			path = "Garage Door OpenerTests";
+			sourceTree = "<group>";
+		};
+		EE288A6A1DCEE0F70056BF59 /* Garage Door OpenerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE288A6B1DCEE0F70056BF59 /* Garage_Door_OpenerUITests.swift */,
+				EE288A6D1DCEE0F70056BF59 /* Info.plist */,
+			);
+			path = "Garage Door OpenerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE288A471DCEE0F60056BF59 /* Garage Door Opener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE288A701DCEE0F70056BF59 /* Build configuration list for PBXNativeTarget "Garage Door Opener" */;
+			buildPhases = (
+				EE288A441DCEE0F60056BF59 /* Sources */,
+				EE288A451DCEE0F60056BF59 /* Frameworks */,
+				EE288A461DCEE0F60056BF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Garage Door Opener";
+			productName = "Garage Door Opener";
+			productReference = EE288A481DCEE0F60056BF59 /* Garage Door Opener.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE288A5B1DCEE0F70056BF59 /* Garage Door OpenerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE288A731DCEE0F70056BF59 /* Build configuration list for PBXNativeTarget "Garage Door OpenerTests" */;
+			buildPhases = (
+				EE288A581DCEE0F70056BF59 /* Sources */,
+				EE288A591DCEE0F70056BF59 /* Frameworks */,
+				EE288A5A1DCEE0F70056BF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE288A5E1DCEE0F70056BF59 /* PBXTargetDependency */,
+			);
+			name = "Garage Door OpenerTests";
+			productName = "Garage Door OpenerTests";
+			productReference = EE288A5C1DCEE0F70056BF59 /* Garage Door OpenerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE288A661DCEE0F70056BF59 /* Garage Door OpenerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE288A761DCEE0F70056BF59 /* Build configuration list for PBXNativeTarget "Garage Door OpenerUITests" */;
+			buildPhases = (
+				EE288A631DCEE0F70056BF59 /* Sources */,
+				EE288A641DCEE0F70056BF59 /* Frameworks */,
+				EE288A651DCEE0F70056BF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE288A691DCEE0F70056BF59 /* PBXTargetDependency */,
+			);
+			name = "Garage Door OpenerUITests";
+			productName = "Garage Door OpenerUITests";
+			productReference = EE288A671DCEE0F70056BF59 /* Garage Door OpenerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE288A401DCEE0F60056BF59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "David Johnson";
+				TargetAttributes = {
+					EE288A471DCEE0F60056BF59 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W2HNF3DWQ9;
+						ProvisioningStyle = Automatic;
+					};
+					EE288A5B1DCEE0F70056BF59 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W2HNF3DWQ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE288A471DCEE0F60056BF59;
+					};
+					EE288A661DCEE0F70056BF59 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W2HNF3DWQ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE288A471DCEE0F60056BF59;
+					};
+				};
+			};
+			buildConfigurationList = EE288A431DCEE0F60056BF59 /* Build configuration list for PBXProject "Garage Door Opener" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE288A3F1DCEE0F60056BF59;
+			productRefGroup = EE288A491DCEE0F60056BF59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE288A471DCEE0F60056BF59 /* Garage Door Opener */,
+				EE288A5B1DCEE0F70056BF59 /* Garage Door OpenerTests */,
+				EE288A661DCEE0F70056BF59 /* Garage Door OpenerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE288A461DCEE0F60056BF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE288A561DCEE0F60056BF59 /* LaunchScreen.storyboard in Resources */,
+				EE288A531DCEE0F60056BF59 /* Assets.xcassets in Resources */,
+				EE288A511DCEE0F60056BF59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE288A5A1DCEE0F70056BF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE288A651DCEE0F70056BF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE288A441DCEE0F60056BF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE288A4E1DCEE0F60056BF59 /* ViewController.swift in Sources */,
+				EE288A4C1DCEE0F60056BF59 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE288A581DCEE0F70056BF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE288A611DCEE0F70056BF59 /* Garage_Door_OpenerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE288A631DCEE0F70056BF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE288A6C1DCEE0F70056BF59 /* Garage_Door_OpenerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE288A5E1DCEE0F70056BF59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE288A471DCEE0F60056BF59 /* Garage Door Opener */;
+			targetProxy = EE288A5D1DCEE0F70056BF59 /* PBXContainerItemProxy */;
+		};
+		EE288A691DCEE0F70056BF59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE288A471DCEE0F60056BF59 /* Garage Door Opener */;
+			targetProxy = EE288A681DCEE0F70056BF59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE288A4F1DCEE0F60056BF59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE288A501DCEE0F60056BF59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE288A541DCEE0F60056BF59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE288A551DCEE0F60056BF59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE288A6E1DCEE0F70056BF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE288A6F1DCEE0F70056BF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE288A711DCEE0F70056BF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W2HNF3DWQ9;
+				INFOPLIST_FILE = "Garage Door Opener/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eDave.org.Garage-Door-Opener";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE288A721DCEE0F70056BF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W2HNF3DWQ9;
+				INFOPLIST_FILE = "Garage Door Opener/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eDave.org.Garage-Door-Opener";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE288A741DCEE0F70056BF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W2HNF3DWQ9;
+				INFOPLIST_FILE = "Garage Door OpenerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eDave.org.Garage-Door-OpenerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garage Door Opener.app/Garage Door Opener";
+			};
+			name = Debug;
+		};
+		EE288A751DCEE0F70056BF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W2HNF3DWQ9;
+				INFOPLIST_FILE = "Garage Door OpenerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eDave.org.Garage-Door-OpenerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garage Door Opener.app/Garage Door Opener";
+			};
+			name = Release;
+		};
+		EE288A771DCEE0F70056BF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W2HNF3DWQ9;
+				INFOPLIST_FILE = "Garage Door OpenerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eDave.org.Garage-Door-OpenerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Garage Door Opener";
+			};
+			name = Debug;
+		};
+		EE288A781DCEE0F70056BF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W2HNF3DWQ9;
+				INFOPLIST_FILE = "Garage Door OpenerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eDave.org.Garage-Door-OpenerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Garage Door Opener";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE288A431DCEE0F60056BF59 /* Build configuration list for PBXProject "Garage Door Opener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE288A6E1DCEE0F70056BF59 /* Debug */,
+				EE288A6F1DCEE0F70056BF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE288A701DCEE0F70056BF59 /* Build configuration list for PBXNativeTarget "Garage Door Opener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE288A711DCEE0F70056BF59 /* Debug */,
+				EE288A721DCEE0F70056BF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE288A731DCEE0F70056BF59 /* Build configuration list for PBXNativeTarget "Garage Door OpenerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE288A741DCEE0F70056BF59 /* Debug */,
+				EE288A751DCEE0F70056BF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE288A761DCEE0F70056BF59 /* Build configuration list for PBXNativeTarget "Garage Door OpenerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE288A771DCEE0F70056BF59 /* Debug */,
+				EE288A781DCEE0F70056BF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE288A401DCEE0F60056BF59 /* Project object */;
+}
