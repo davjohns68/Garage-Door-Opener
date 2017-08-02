@@ -14,6 +14,7 @@
 		EE288A561DCEE0F60056BF59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE288A541DCEE0F60056BF59 /* LaunchScreen.storyboard */; };
 		EE288A611DCEE0F70056BF59 /* Garage_Door_OpenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE288A601DCEE0F70056BF59 /* Garage_Door_OpenerTests.swift */; };
 		EE288A6C1DCEE0F70056BF59 /* Garage_Door_OpenerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE288A6B1DCEE0F70056BF59 /* Garage_Door_OpenerUITests.swift */; };
+		EE74D9031DE157F60059CAF4 /* OpenTheDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE74D9021DE157F60059CAF4 /* OpenTheDoor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EE288A671DCEE0F70056BF59 /* Garage Door OpenerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Garage Door OpenerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE288A6B1DCEE0F70056BF59 /* Garage_Door_OpenerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garage_Door_OpenerUITests.swift; sourceTree = "<group>"; };
 		EE288A6D1DCEE0F70056BF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE74D9021DE157F60059CAF4 /* OpenTheDoor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenTheDoor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EE288A521DCEE0F60056BF59 /* Assets.xcassets */,
 				EE288A541DCEE0F60056BF59 /* LaunchScreen.storyboard */,
 				EE288A571DCEE0F60056BF59 /* Info.plist */,
+				EE74D9021DE157F60059CAF4 /* OpenTheDoor.swift */,
 			);
 			path = "Garage Door Opener";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE74D9031DE157F60059CAF4 /* OpenTheDoor.swift in Sources */,
 				EE288A4E1DCEE0F60056BF59 /* ViewController.swift in Sources */,
 				EE288A4C1DCEE0F60056BF59 /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				EE288A721DCEE0F70056BF59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE288A731DCEE0F70056BF59 /* Build configuration list for PBXNativeTarget "Garage Door OpenerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				EE288A751DCEE0F70056BF59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE288A761DCEE0F70056BF59 /* Build configuration list for PBXNativeTarget "Garage Door OpenerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				EE288A781DCEE0F70056BF59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
